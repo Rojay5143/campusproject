@@ -1,0 +1,108 @@
+﻿<link href="~/css/site.css" rel="stylesheet" />
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+
+    .column{
+        float: left;
+        width: 20%;
+        padding: 10px;
+        height: 350px;
+        background-color:navajowhite;
+    }
+
+    .column1 {
+        float: left;
+        width: 80%;
+        padding: 10px;
+        height: 350px;
+    }
+    .column2 {
+        float: left;
+        width: 80%;
+        padding: 10px;
+        height: 350px;
+    }
+
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+</style>
+<center>
+   <u><h3 style="font-size:40px; color:dimgray">Student Dashboard</h3>  </u> 
+</center>
+
+<div class="row">
+    <div class="column">
+        <div>
+            <a href="#" style="font-size:20px;">
+                Menu
+            </a><br />
+            <a href="#" style="font-size:30px;">
+                COMPANY
+            </a><br />
+            <a href="#" style="font-size:30px;">
+                JOBS
+            </a>
+        </div>
+    </div>
+    <div class="column1">
+        <div class="container">
+            <h2>Company Table</h2>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Description</th>
+                        <th>logo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>XYZ</td>
+                        <td>XYZ company is located in bhadrapur jhapa.</td>
+                        <td>
+                            <img src="~/image/download.png" style="height:90px;width:90px" />
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+     </div>
+    <div class="column2">
+        <center>
+            <h1>
+                Jobs Vacccency
+            </h1>
+        </center>  
+        <div>
+            <center>
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th scope="col">s.n</th>
+                            <th scope="col">Company Name</th>
+                            <th scope="col">Post</th>
+                            <th scope="col">Salary</th>
+                            <th scope="col">Qualification</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1</th>
+                            <td>XYZ Company</td>
+                            <td>Software Engineer</td>
+                            <td>1000-1200</td>
+                            <td>Bachelor in any IT field</td>
+                            <td><button type="button" class="btn btn-primary">Apply</button></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </center>
+        </div>
+    </div>
+</div>
